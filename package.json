@@ -1,0 +1,20 @@
+{
+  "name": "ContactsApp",
+  "version": "0.0.1",
+  "description": "MEAN Stack Application",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PavelDobranov/ContactsApp.git"
+  },
+  "author": "Pavel Dobranov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PavelDobranov/ContactsApp/issues"
+  },
+  "homepage": "https://github.com/PavelDobranov/ContactsApp",
+  "dependencies": {
+    "express": "^4.10.2",
+    "jade": "^1.7.0"
+  }
+}
