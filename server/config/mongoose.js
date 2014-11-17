@@ -10,7 +10,7 @@ module.exports = function (config) {
     console.log('Database error: ' + err); // TODO: Error handling
   });
 
-  db.once('opnen', function (err) {
+  db.once('open', function (err) {
     if (err) {
       console.log('Database could not be opened: ' + err); // TODO: Error handling
     } else {
